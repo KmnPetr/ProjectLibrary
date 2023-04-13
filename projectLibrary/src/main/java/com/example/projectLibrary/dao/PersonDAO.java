@@ -1,6 +1,6 @@
 package com.example.projectLibrary.dao;
 
-import com.example.projectLibrary.model.Book;
+/*import com.example.projectLibrary.model.Book;
 import com.example.projectLibrary.model.Person;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,8 +13,9 @@ import java.util.List;
 import java.util.Optional;
 
 @Component
-public class PersonDAO extends JdbcDaoSupport {
-    DataSource dataSource;
+public class PersonDAO extends JdbcDaoSupport { }*/
+//весь этот код мы заменили
+/*DataSource dataSource;
     @Autowired
     public PersonDAO(DataSource dataSource) {
         this.dataSource = dataSource;
@@ -57,5 +58,4 @@ public class PersonDAO extends JdbcDaoSupport {
     public List<Book> getBooksByPersonId(int id) {
         return getJdbcTemplate().query("SELECT * FROM Book WHERE person_id = ?", new Object[]{id},
                 new BeanPropertyRowMapper<>(Book.class));
-    }
-}
+    }*/

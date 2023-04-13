@@ -1,5 +1,5 @@
 package com.example.projectLibrary.dao;
-
+/*
 import com.example.projectLibrary.model.Book;
 import com.example.projectLibrary.model.Person;
 import jakarta.annotation.PostConstruct;
@@ -13,8 +13,9 @@ import java.util.List;
 import java.util.Optional;
 
 @Component
-public class BookDAO extends JdbcDaoSupport {
-    DataSource dataSource;
+public class BookDAO extends JdbcDaoSupport { }*/
+//весь этот код мы заменили
+/* DataSource dataSource;
     @Autowired
     public BookDAO(DataSource dataSource) {
         this.dataSource = dataSource;
@@ -63,5 +64,4 @@ public class BookDAO extends JdbcDaoSupport {
     // Назначает книгу человеку (этот метод вызывается, когда человек забирает книгу из библиотеки)
     public void assign(int id, Person selectedPerson) {
         getJdbcTemplate().update("UPDATE Book SET person_id=? WHERE id=?", selectedPerson.getId(), id);
-    }
-}
+    }*/
